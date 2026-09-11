@@ -11,6 +11,11 @@ export const metadata: Metadata = {
     'Sistem absensi harian siswa dengan validasi waktu server (05:00–07:00 WIB), geofencing 100 meter, dan selfie verifikasi. Panel internal sekolah.',
   applicationName: 'Slate',
   alternates: { canonical: '/' },
+  openGraph: {
+    title: 'Slate — Absensi Harian Siswa',
+    description: 'Sistem absensi harian siswa: time-lock 05:00–07:00 WIB, geofencing 100 meter, selfie verifikasi.',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Slate absensi harian siswa' }],
+  },
   robots: { index: false, follow: false },
 };
 
