@@ -1,3 +1,15 @@
+# 🧠 Central Knowledge Base (Obsidian Second Brain)
+
+> [!IMPORTANT] **Wajib Membaca & Memperbarui Obsidian Vault**
+> Pusat memori kerja, spesifikasi arsitektur, catatan kompilasi/build, dan aturan implementasi resmi proyek ini tersimpan di:
+> `C:\Users\HYPE AMD\files\PROJECT\lankdev memo\Lankdev memo\04 - Projects Knowledge Base\SLATE-ABSENSI (Internal QR Attendance).md`
+>
+> Seluruh agen AI (Claude Code, Hermes, OpenAI Codex, Google Antigravity) yang bekerja di repositori ini **WAJIB**:
+> 1. **Membaca** catatan proyek di Obsidian sebelum memulai perubahan kode atau investigasi arsitektur.
+> 2. **Memperbarui** catatan proyek dan mencatat milestone baru di `07 - Timeline & Project History/Changelog & Activity History.md` setelah selesai bekerja sesuai SOP di `00 - Mission Control/Protocol - Automated Vault Updates.md`.
+
+---
+
 # 🍏 Klas Absensi Studio — Sistem Desain & Panduan Agen AI
 > **Versi:** 2.0 (Edisi Monokrom Minimalis Apple)  
 > **Target Rute Produksi:** > - Admin Dashboard: `https://absensi-harian.vanzdev.biz.id/admin/dashboard`  

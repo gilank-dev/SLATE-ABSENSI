@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://slate-absensi.vercel.app'),
   title: {
     default: 'Slate — Absensi Harian Siswa',
     template: '%s | Slate',
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
   description:
     'Sistem absensi harian siswa dengan validasi waktu server (05:00–07:00 WIB), geofencing 100 meter, dan selfie verifikasi. Panel internal sekolah.',
   applicationName: 'Slate',
+  alternates: { canonical: '/' },
   robots: { index: false, follow: false },
 };
 
