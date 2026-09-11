@@ -9,6 +9,9 @@ const securityHeaders = [
 const nextConfig = {
   productionBrowserSourceMaps: false,
   poweredByHeader: false,
+  // Enable gzip/brotli at the app level so self-hosted runs compress too
+  // (Vercel edge normally handles this, but SLATE HTML was served identity).
+  compress: true,
   async headers() {
     return [{ source: '/(.*)', headers: securityHeaders }];
   },
